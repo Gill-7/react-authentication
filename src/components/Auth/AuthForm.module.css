@@ -1,0 +1,74 @@
+.auth {
+	margin: 3rem auto;
+	width: 95%;
+	max-width: 30rem;
+	border-radius: 6px;
+	background-color: #e9ecef;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+.auth h1 {
+	text-align: center;
+	color: #495057;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.control {
+	margin: 0 2rem;
+	margin-bottom: 1rem;
+}
+.control label {
+	display: block;
+	color: #495057;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 0.2rem;
+}
+.control input {
+	font: inherit;
+	background-color: white;
+	color: black;
+	border-radius: 14px;
+	border: 1px solid #adb5bd;
+	width: 100%;
+	text-align: center;
+	padding: 0.5rem;
+	outline: none;
+}
+
+.actions {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.actions button {
+	cursor: pointer;
+	font: inherit;
+	font-weight: bold;
+	color: #495057;
+	background-color: #e9ecef;
+	border: 2px solid #495057;
+	border-radius: 4px;
+	padding: 0.5rem 2rem;
+}
+.actions button:hover {
+	background-color: #495057;
+	border-color: #495057;
+	color: #e9ecef;
+}
+.actions .toggle {
+	margin-top: 1rem;
+	background-color: transparent;
+	color: #004e98;
+	border: none;
+	padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+	background-color: transparent;
+	color: #00adef;
+}
